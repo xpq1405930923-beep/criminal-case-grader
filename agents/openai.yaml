@@ -1,0 +1,4 @@
+interface:
+  display_name: "刑法案例分析阅卷"
+  short_description: "识别题目与答卷，按20分采点评分并生成红绿蓝标注的两栏Word报告"
+  default_prompt: "请用 $criminal-case-grader 识别我上传的题目、参考答案和考生答案，按每道完整案例20分批改并输出Word，最后附简明的考场示范答案。"
